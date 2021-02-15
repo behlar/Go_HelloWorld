@@ -1,17 +1,17 @@
 # Go_HelloWorld
 #### Unix Terminal. Anweisungen ohne Editor in 'hello-world.go' setzen
-  cat > hello-world.go << "E0F"
-  package main
+    cat > hello-world.go << "E0F"
+    package main
 
-  import "fmt"
+    import "fmt"
 
-  func main() {
-    fmt.Println("hello world")
-  }
-  E0F
+    func main() {
+      fmt.Println("hello world")
+    }
+    E0F
 #### 'hello-world.go' laufen lassen
-  go run hello-world.go
+    go run hello-world.go
 #### 'hello-world.go' in eine Executable übersetzen
-  go build hello-world.go
+    go build hello-world.go
 #### 'hello-world' ausführen
-  ./hello-world
+    ./hello-world

@@ -1,6 +1,6 @@
 ## Go hello-world
 ### Unix Terminal
-#### Anweisungen ohne Editor in 'hello-world.go' setzen
+#### Anweisungen ohne Editor in 'hello-world.go' schreiben
     cat > hello-world.go << "E0F"
     package main
 
